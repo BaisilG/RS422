@@ -1,3 +1,5 @@
 Introduction to RS422
 
 RS422 provides much higher data speeds than RS232 as a result of the differential signal and other techniques used
+
+RS422 was introduced to enable higher data rates to be transferred over serial data lines than was possible with RS232.
