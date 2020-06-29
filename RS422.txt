@@ -3,3 +3,15 @@ Introduction to RS422
 RS422 provides much higher data speeds than RS232 as a result of the differential signal and other techniques used
 
 RS422 was introduced to enable higher data rates to be transferred over serial data lines than was possible with RS232.
+
+RS422 is able to provide data rates of up to 10 Mbps at distances up to 50 feet (15.24 metres). However using reduced data rates, RS422 is able to transmit data over distances of 4000 feet (~1220 metres): the maximum is 100 kbps at this distance.
+
+The key reason why RS422 is able to achieve these improvements results from the use of differential or balanced transmission techniques.
+
+RS422 uses both differential transmitters and receivers which means that it is much more resilient to common mode interference, a key issue with long lines.
+
+Lower voltage line levels are used for RS422: A space is represented by a line voltage level in the band between +2 and +6 volts while a mark is represented by a voltage in the range -2 to -6 volts. The range between +2 and -2 volts provides a good noise margin for the system. Additionally the RS422 standard allows for line impedances down to 50 ohms while supporting the high data rates.
+
+To enable the differential driver to be used, the RS-422 standard uses a four conductor cable. Additionally up to ten receivers can be placed on a single cable, providing a multi-point network or bus.
+
+Although RS422 is significantly different to RS232, it can often be used as a direct interface in many instances.
